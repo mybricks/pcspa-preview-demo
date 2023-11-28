@@ -1,0 +1,80 @@
+.mask {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.45);
+  :global{
+    .ant-modal-wrap{
+      position: absolute;
+    }
+  }
+  z-index: 1000;
+}
+
+.container {
+  :global {
+    .ant-modal-close {
+      position: absolute !important;
+    }
+
+    .ant-modal-title {
+      margin-right: 30px;
+    }
+    .ant-modal-header {
+      padding: 16px 24px;
+      border-bottom: 1px solid #f0f0f0;
+      background: unset;
+    }
+    .ant-modal-body {
+      padding: 24px;
+      overflow: auto;
+    }
+    .ant-modal-footer {
+      padding: 10px 16px;
+      border-top: 1px solid #f0f0f0;
+
+      .toolbar {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-flow: row wrap;
+      }
+    }
+  }
+}
+
+.antdMask{
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.45);
+  :global{
+    .ant-modal-wrap {
+      overflow: unset;
+      position: unset;
+    }
+    .ant-modal{
+      top: 0px;
+      padding: unset
+    }
+  }
+}
+
+.debugMask{
+  :global{
+    .ant-modal-mask {
+      position: unset;
+    }
+  }
+}
+
+.mobileFooter.mobileFooter {
+  flex-direction: column-reverse;
+  display: flex;
+        align-items: center;
+  button {
+    width: 100%;
+    margin: 4px 0px !important;
+  }
+}

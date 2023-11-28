@@ -1,0 +1,58 @@
+@blue: #0075ff;
+@fontColor: #8c8c8c;
+@fontColor2: #434343;
+@bgColor: #f5f7f9;
+@fontSize: 14px;
+@fontSize2: 18px;
+
+.table {
+  :global {
+    .ant-btn {
+      box-sizing: border-box;
+    }
+
+    // 临时同步antd@1.10.4调整的样式内容，升级到antd>=1.10.4后可移除
+    .ant-table-column-title {
+      flex: unset;
+      margin-right: 4px;
+    }
+
+    .ant-table-column-sorters {
+      justify-content: unset;
+    }
+
+    tr.mybricks-table-row-double {
+      background: #fafafa;
+    }
+
+    // 消除第一行空白行
+    tr.ant-table-measure-row {
+      visibility: collapse;
+    }
+  }
+}
+
+.emptyWrap {
+  border: 1px dashed rgb(176, 176, 176);
+  margin: 0;
+}
+
+.emptyNormal {
+  margin: 32px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.emptyImage {
+  height: 40px;
+  margin-bottom: 8px;
+}
+
+.emptyDescription {
+  color: rgba(0, 0, 0, 0.25);
+  font-size: 14px;
+  line-height: 1.5717;
+  text-align: center;
+}

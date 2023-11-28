@@ -1,0 +1,45 @@
+{
+  "title": "对话框",
+  "visibility": false,
+  "namespace": "mybricks.basic-comlib.popup",
+  "author": "CheMingjun",
+  "author_name": "车明君",
+  "version": "1.0.23",
+  "description": "对话框",
+  "data": "./data.json",
+  "runtime": "./runtime.tsx",
+  "editors": "./editors.ts",
+  "upgrade": "./upgrade.ts",
+  "slots": [
+    {
+      "id": "body",
+      "title": "内容"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "title",
+      "title": "修改标题",
+      "schema": {
+        "type": "string"
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "id": "ok",
+      "title": "确定"
+    },
+    {
+      "id": "cancel",
+      "title": "取消"
+    },
+    {
+      "id": "apply",
+      "title": "应用",
+      "schema": {
+        "type": "follow"
+      }
+    }
+  ]
+}

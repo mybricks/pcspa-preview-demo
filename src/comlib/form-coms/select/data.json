@@ -1,0 +1,19 @@
+{
+  "visible": true,
+  "config": {
+    "disabled": false,
+    "placeholder": "请选择",
+    "mode": "default",
+    "showSearch": true,
+    "filterOption": true,
+    "optionFilterProp": "label",
+    "showArrow": "true"
+  },
+  "validateTrigger": [
+    "onChange"
+  ],
+  "maxTagCount": "",
+  "staticOptions": [],
+  "dropdownSearchOption": false,
+  "outputValueType": "value"
+}

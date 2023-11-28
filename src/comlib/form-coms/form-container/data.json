@@ -1,0 +1,64 @@
+{
+  "layoutType": "Form",
+  "span": 8,
+  "items": [],
+  "additionalItems": [],
+  "nameCount": 0,
+  "formItemColumn": 1,
+  "actions": {
+    "visible": true,
+    "widthOption": "flexFull",
+    "span": 24,
+    "align": "left",
+    "inlinePadding": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "items": [
+      {
+        "title": "提交",
+        "type": "primary",
+        "isDefault": true,
+        "visible": true,
+        "outputId": "onClickSubmit",
+        "key": "submit",
+        "useDynamicDisabled": false,
+        "useDynamicHidden": false,
+        "disabled": false
+      },
+      {
+        "title": "取消",
+        "isDefault": false,
+        "visible": true,
+        "outputId": "onClickCancel",
+        "key": "cancel",
+        "useDynamicDisabled": false,
+        "useDynamicHidden": false,
+        "disabled": false
+      }
+    ]
+  },
+  "isFormItem": false,
+  "wrapperCol": 24,
+  "labelWidthType": "px",
+  "labelWidth": 98,
+  "labelCol": 4,
+  "itemWidthType": "flex",
+  "paramsSchema": {},
+  "submitHiddenFields": false,
+  "config": {
+    "colon": true,
+    "layout": "horizontal",
+    "labelWrap": false,
+    "labelAlign": "right",
+    "disabled": false
+  },
+  "domainModel": {
+    "entity": {},
+    "type": "",
+    "queryFieldRules": {}
+  },
+  "defaultCollapsed": true
+}

@@ -1,0 +1,46 @@
+{
+  "title": "对话框",
+  "hideTitle": false,
+  "centered": false,
+  "width": 520,
+  "useFooter": true,
+  "footerLayout": "flex-end",
+  "footerBtns": [
+    {
+      "id": "cancel",
+      "title": "取消",
+      "icon": "",
+      "useIcon": false,
+      "showText": true,
+      "dynamicHidden": true,
+      "dynamicDisabled": true,
+      "type": "default",
+      "visible": true,
+      "autoClose": true,
+      "isConnected": false,
+      "useDynamicDisabled": false,
+      "useDynamicHidden": false,
+      "disabled": false
+    },
+    {
+      "id": "ok",
+      "title": "确认",
+      "type": "primary",
+      "icon": "",
+      "dynamicHidden": true,
+      "dynamicDisabled": true,
+      "useIcon": false,
+      "showText": true,
+      "visible": true,
+      "autoClose": true,
+      "isConnected": false,
+      "useDynamicDisabled": false,
+      "useDynamicHidden": false,
+      "disabled": false
+    }
+  ],
+  "closable": true,
+  "maskClosable": true,
+  "isTitleCustom": false,
+  "keyboard": true
+}
